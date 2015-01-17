@@ -1,13 +1,13 @@
 ﻿DOCUMENTATION FOR TESSERACT
 Following are descriptions for Project Tesseract.
 UNITS
-Vanilla (Standard) - A simple tesseract with no special functions. [0/200]
+[DONE] Vanilla (Standard) - A simple tesseract with no special functions. [0/200]
 Strike (Offensive) - Fires in a particular direction a single shot every 5 seconds, dealing light dmg. [20/200]
-Carbonite (Defensive) - Shields all adjacent allies. [0/300/100 (shield)+2/s]
-Bastion - Absorbs damage to adjacent friendly units onto itself. Destroyed when HP reaches 0. [0/700]
+[DONE] Bastion (Defensive) - Shields all adjacent allies. [0/300/100 (shield)+2/s]
+Arcane - Absorbs damage to adjacent friendly units onto itself. Destroyed when HP reaches 0. [0/700]
 Inversion (Elevator) - Lifts any block up to 5 units vertically or can float in space [0/250]
 Blaster (Explosive) - Detonates and deals heavy damage to first block in a particular direction and moderate damage to second block in same direction. [200:100/150]
-Medical - Regenerates 15 HP/s of adjacent friendly cubes. [0/150]
+[DONE] Medical - Regenerates 15 HP/s of adjacent friendly cubes. [0/150]
 Manipulator - Randomly changes 3 friendly cubes into another type (except Export, Power) [0/300]
 Reflection - Deflects ½ damage back to attacker, self-destructs in the process [50%/100]
 Cloak - Rendered invisible and detonates when detected, adjacent cloaks will also detonate, dealing moderate damage. Can be disarmed if attacked, turning it visible for 30 seconds. Can be detected by Overwatch. [150/100]
