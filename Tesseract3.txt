@@ -13,7 +13,7 @@ Reflection - Deflects ½ damage back to attacker, self-destructs in the process 
 Cloak - Rendered invisible and detonates when detected, adjacent cloaks will also detonate, dealing moderate damage. Can be disarmed if attacked, turning it visible for 30 seconds. Can be detected by Overwatch. [150/100]
 Overwatch - Watches a narrow area and will deal damage to any cube within that area [5perSecond/200]
 Apex - Used to light lamp at top [0/500, regen5hp/s]
-Exporter - Generates cubes [0/1000, regen10hp/s]
+[DONE] Exporter - Generates cubes [0/1000, regen10hp/s]
 
 
 General properties of all tesseracts
