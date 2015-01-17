@@ -11,7 +11,7 @@ Blaster (Explosive) - Detonates and deals heavy damage to first block in a parti
 Manipulator - Randomly changes 3 friendly cubes into another type (except Export, Power) [0/300]
 Reflection - Deflects ½ damage back to attacker, self-destructs in the process [50%/100]
 Cloak - Rendered invisible and detonates when detected, adjacent cloaks will also detonate, dealing moderate damage. Can be disarmed if attacked, turning it visible for 30 seconds. Can be detected by Overwatch. [150/100]
-Overwatch - Watches a narrow area and will deal damage to any cube within that area [5perSecond/200]
+[DONE] Overwatch - Watches a narrow area and will deal damage to any cube within that area [5perSecond/200]
 Apex - Used to light lamp at top [0/500, regen5hp/s]
 [DONE] Exporter - Generates cubes [0/1000, regen10hp/s]
 
