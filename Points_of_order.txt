@@ -1,0 +1,10 @@
+ORDER OF BUSINESS
+- Modeling of Tesseracts
+- Modeling of Playing field(s)
+- Texturing and Materials
+- Animations
+- Logic Bricks
+- Main Menu
+- Additionals
+- Testing
+EDN
