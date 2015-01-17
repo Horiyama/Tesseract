@@ -1,0 +1,79 @@
+﻿DOCUMENTATION FOR TESSERACT
+Following are descriptions for Project Tesseract.
+UNITS
+Vanilla (Standard) - A simple tesseract with no special functions. [0/200]
+Strike (Offensive) - Fires in a particular direction a single shot every 5 seconds, dealing light dmg. [20/200]
+Carbonite (Defensive) - Shields all adjacent allies. [0/300/100 (shield)+2/s]
+Bastion - Absorbs damage to adjacent friendly units onto itself. Destroyed when HP reaches 0. [0/700]
+Inversion (Elevator) - Lifts any block up to 5 units vertically or can float in space [0/250]
+Blaster (Explosive) - Detonates and deals heavy damage to first block in a particular direction and moderate damage to second block in same direction. [200:100/150]
+Medical - Regenerates 15 HP/s of adjacent friendly cubes. [0/150]
+Manipulator - Randomly changes 3 friendly cubes into another type (except Export, Power) [0/300]
+Reflection - Deflects ½ damage back to attacker, self-destructs in the process [50%/100]
+Cloak - Rendered invisible and detonates when detected, adjacent cloaks will also detonate, dealing moderate damage. Can be disarmed if attacked, turning it visible for 30 seconds. Can be detected by Overwatch. [150/100]
+Overwatch - Watches a narrow area and will deal damage to any cube within that area [5perSecond/200]
+Apex - Used to light lamp at top [0/500, regen5hp/s]
+Exporter - Generates cubes [0/1000, regen10hp/s]
+
+
+General properties of all tesseracts
+Health
+Shield
+DmgTransfer
+Power
+Position
+ID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EVENTS (programmed after Core)
+Schrodinger - Triggers every 30-40 seconds. A little light will be the only thing to notify which player has the Schrodinger. May be passed to the other player with a press of a button. At end of 10 seconds, whoever have Schrodinger will have one tesseract in their possession which will do one of the following
+1. Sudden Victory/Sudden Loss 0.001%
+2. HP Regenerate all units 20/s for 10s 24.999%
+3. HP Drain 5/s for 20s 24.999%
+4. Power +20 for 10s 25%
+5. Power -20 for 10s 25%
+Friend to None - Triggers every 1 minute. 4 Tesseracts will spawn
+Sacrifice of Blood
+
+
+BUFFS (choose 3)
+Power (programmed after Core)
+Blood of Aggression - Power+5, Defense-5 (cannot be used with Blessing of Heaven)
+Spirited Vengeance - Reflects 1% of damage back to opponent
+Fury of Pain - Power+20 when HP below 10%
+Surge of Wrath - Increase critical chance 10%
+
+
+Defense (programmed after Core)
+Blessing of Heaven - Power-5, Defense-5 (cannot be used with Blood of Aggression)
+Willful Spirit - Defense+20 when HP below 10%
+Blessing of Arcane - Regenerates HP +1 every 10 seconds
+Stance Protection - Reduces critical damage by 20%
+
+
+Units (programmed after Core)
+Armored Carbon - Increase shields +0.5% (Bastion)
+Hardened Steel - Increase bullet power +0.5% (Strike)
+Advanced Transfusion - HP regeneration to allies by +1% (Medical)
+Researched Deflection - Dmg reflected by +2% (Reflection)
+
+
+
+Playing field
+45x45 central grid with a 2x5 limb extending out the side, location of Exporter is on the limb. Block will spawn on the limb. Tesseracts will be moved individually. Lamp will be placed at coordinate [23x23x20] (can be adjusted).
+
+
+Rules
+Tesseracts moves one space at a time with varied speed. Can move 1 unit unless with assistance. First to light the lamp at 30-units’ height wins or if the opponent’s Power block is destroyed. Tesseracts will spawn 15-second intervals with random chance and sent to the player’s inventory. Player has the option to deploy any cube by clicking on the Exporter and using a shortcut key to spawn any Tesseract. Power and Exporter will not be able to be created and if destroyed will not be regenerated. Power destruction means immediate loss. Player loses when all cubes on the Grid is of the opponent’s.
