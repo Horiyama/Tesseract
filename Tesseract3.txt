@@ -4,7 +4,7 @@ UNITS
 [DONE] Vanilla (Standard) - A simple tesseract with no special functions. [0/200]
 [DONE] Strike (Offensive) - Fires in a particular direction a single shot every 5 seconds, dealing light dmg. [20/200]
 [DONE] Bastion (Defensive) - Shields all adjacent allies. [0/300/100 (shield)+2/s]
-Arcane - Absorbs damage to adjacent friendly units onto itself. Destroyed when HP reaches 0. [0/700]
+[DONE] Arcane - Absorbs damage to adjacent friendly units onto itself. Destroyed when HP reaches 0. [0/700]
 [DONE] Inversion (Elevator) - Lifts any block up to 5 units vertically or can float in space [0/250]
 [DONE] Explosive (Blaster) - Detonates and deals heavy damage to first block in a particular direction and moderate damage to second block in same direction. [200:100/150]
 [DONE] Medical - Regenerates 15 HP/s of adjacent friendly cubes. [0/150]
